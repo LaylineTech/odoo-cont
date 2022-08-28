@@ -4,7 +4,7 @@
         <field name="name">Withholding Vendor Tax Account</field>
     </record>
 
-	<record id="account_tag_dividend_account" model="account.account.tag">
+    <record id="account_tag_dividend_account" model="account.account.tag">
         <field name="name">Dividend Account</field>
     </record>
 
@@ -18,5 +18,129 @@
 
     <record id="account_tag_retention_tax_customers_account" model="account.account.tag">
         <field name="name">Withholding Customers Tax Account</field>
+    </record>
+
+    <record id="account_tag_vat_input_import_line" model="account.account.tag">
+        <field name="name">VAT Inputs Import Line Account</field>
+    </record>
+    <record id="tax_account_tag_in_balance_17_plus" model="account.account.tag">
+        <field name="name">+Vat input 17%</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_17_minus" model="account.account.tag">
+        <field name="name">-Vat input 17%</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_base_pluse" model="account.account.tag">
+        <field name="name">+VAT SALES (BASE)</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_base_minus" model="account.account.tag">
+        <field name="name">-VAT SALES (BASE)</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_balance_pluse" model="account.account.tag">
+        <field name="name">+VAT Sales</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_balance_minus" model="account.account.tag">
+        <field name="name">-VAT Sales</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_balance_pa_pluse" model="account.account.tag">
+        <field name="name">+VAT PA Sales</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_balance_pa_minus" model="account.account.tag">
+        <field name="name">-VAT PA Sales</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_base_exempt_pluse" model="account.account.tag">
+        <field name="name">+VAT Exempt Sales (BASE)</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_out_base_exempt_minus" model="account.account.tag">
+        <field name="name">-VAT Exempt Sales (BASE)</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_pa_16_plus" model="account.account.tag">
+        <field name="name">+VAT Inputs PA 16%</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_pa_16_minus" model="account.account.tag">
+        <field name="name">-VAT Inputs PA 16%</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+        <record id="tax_account_tag_in_balance_2_3_plus" model="account.account.tag">
+        <field name="name">+VAT Inputs 2/3</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_2_3_minus" model="account.account.tag">
+        <field name="name">-VAT Inputs 2/3</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_1_4_plus" model="account.account.tag">
+        <field name="name">+VAT Inputs 1/4</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_1_4_minus" model="account.account.tag">
+        <field name="name">-VAT Inputs 1/4</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_1_4_plus" model="account.account.tag">
+        <field name="name">+VAT Inputs 1/4</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_balance_1_4_minus" model="account.account.tag">
+        <field name="name">-VAT Inputs 1/4</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_fa_plus" model="account.account.tag">
+        <field name="name">+VAT INPUTS (fixed assets)</field>
+        <field name="tax_negate">0</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
+    </record>
+    <record id="tax_account_tag_in_fa_minus" model="account.account.tag">
+        <field name="name">-VAT INPUTS (fixed assets)</field>
+        <field name="tax_negate">1</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.il"/>
     </record>
 </odoo>
