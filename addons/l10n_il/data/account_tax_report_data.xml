@@ -15,7 +15,7 @@
 
     <record id="account_tax_report_line_out_base" model="account.tax.report.line">
         <field name="name">VAT SALES (BASE)</field>
-        <field name="tag_name">VAT SALES (BASE)</field>
+        <field name="tag_name">הכנסות חייבות במע"מ</field>
         <field name="code">ILTAX_OUT_BASE</field>
         <field name="sequence">1</field>
         <field name="parent_id" ref="account_tax_report_line_out_base_title"/>
@@ -32,7 +32,7 @@
 
     <record id="account_tax_report_line_out_balance" model="account.tax.report.line">
         <field name="name">VAT Sales</field>
-        <field name="tag_name">VAT Sales</field>
+        <field name="tag_name">מע"מ עסקאות</field>
         <field name="code">ILTAX_OUT_BALANCE_00</field>
         <field name="sequence">21</field>
         <field name="parent_id" ref="account_tax_report_line_vat_sales_tax"/>
@@ -41,7 +41,7 @@
 
     <record id="account_tax_report_line_out_balance_pa" model="account.tax.report.line">
         <field name="name">VAT PA Sales</field>
-        <field name="tag_name">VAT PA Sales</field>
+        <field name="tag_name">מע"מ עסקאות פלסטין</field>
         <field name="code">ILTAX_OUT_BALANCE_PA</field>
         <field name="sequence">22</field>
         <field name="parent_id" ref="account_tax_report_line_vat_sales_tax"/>
@@ -56,7 +56,7 @@
 
     <record id="account_tax_report_line_out_base_exempt" model="account.tax.report.line">
         <field name="name">VAT Exempt Sales (BASE)</field>
-        <field name="tag_name">VAT Exempt Sales (BASE)</field>
+        <field name="tag_name">הכנסות פטורות ממע"מ</field>
         <field name="code">ILTAX_OUT_BASE_exempt</field>
         <field name="sequence">3</field>
         <field name="parent_id" ref="account_tax_report_line_out_base_exempt_title"/>
@@ -74,7 +74,7 @@
 
 	<record id="account_tax_report_line_in_balance_17" model="account.tax.report.line">
         <field name="name">VAT Inputs 17%</field>
-        <field name="tag_name">VAT Inputs 17%</field>
+        <field name="tag_name">מע"מ תשומות 17%</field>
         <field name="code">ILTAX_IN_BALANCE_17</field>
         <field name="sequence">51</field>
         <field name="parent_id" ref="account_tax_report_line_in_balance"/>
@@ -83,7 +83,7 @@
 
     <record id="account_tax_report_line_in_balance_pa_16" model="account.tax.report.line">
         <field name="name">VAT Inputs PA 16%</field>
-        <field name="tag_name">VAT Inputs PA 16%</field>
+        <field name="tag_name">מע"מ תשומות פלסטין 16%</field>
         <field name="code">ILTAX_IN_BALANCE_PA</field>
         <field name="sequence">52</field>
         <field name="parent_id" ref="account_tax_report_line_in_balance"/>
@@ -92,7 +92,7 @@
 
     <record id="account_tax_report_line_in_balance_2_3" model="account.tax.report.line">
         <field name="name">VAT Inputs 2/3</field>
-        <field name="tag_name">VAT Inputs 2/3</field>
+        <field name="tag_name">מע"מ תשומות 2/3</field>
         <field name="code">ILTAX_IN_BALANCE_2_3</field>
         <field name="sequence">53</field>
         <field name="parent_id" ref="account_tax_report_line_in_balance"/>
@@ -101,7 +101,7 @@
 
     <record id="account_tax_report_line_in_balance_1_4" model="account.tax.report.line">
         <field name="name">VAT Inputs 1/4</field>
-        <field name="tag_name">VAT Inputs 1/4</field>
+        <field name="tag_name">מע"מ תשומות 1/4</field>
         <field name="code">ILTAX_IN_BALANCE_1_4</field>
         <field name="sequence">54</field>
         <field name="parent_id" ref="account_tax_report_line_in_balance"/>
@@ -116,7 +116,7 @@
 
     <record id="account_tax_report_line_vat_in_fa" model="account.tax.report.line">
         <field name="name">VAT INPUTS (fixed assets)</field>
-        <field name="tag_name">VAT INPUTS (fixed assets)</field>
+        <field name="tag_name">מע"מ תשומות (רכוש קבוע)</field>
         <field name="code">ILTAX_VAT_IN_FA</field>
         <field name="sequence">6</field>
         <field name="parent_id" ref="account_tax_report_line_vat_in_fa_title"/>
