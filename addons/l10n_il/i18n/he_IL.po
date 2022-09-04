@@ -6,16 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-31 20:25+0000\n"
-"PO-Revision-Date: 2022-08-31 23:28+0300\n"
+"POT-Creation-Date: 2022-09-01 10:34+0000\n"
+"PO-Revision-Date: 2022-09-01 10:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: he_IL\n"
-"X-Generator: Poedit 2.3\n"
 
 #. module: l10n_il
 #: model:account.tax,description:l10n_il.1_il_vat_pa_purchase_16
@@ -47,6 +45,11 @@ msgstr ""
 #: model:account.tax.template,description:l10n_il.il_vat_sales_17
 #: model:account.tax.template,description:l10n_il.il_vat_self_inv_purchase
 msgid "17%"
+msgstr ""
+
+#. module: l10n_il
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_base_exempt
+msgid ">VAT Exempt Sales (BASE)"
 msgstr ""
 
 #. module: l10n_il
@@ -744,6 +747,7 @@ msgstr "מע\"מ תשומות"
 #. module: l10n_il
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_vat_in_fa
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_vat_in_fa_title
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_vat_in_fa
 msgid "VAT INPUTS (fixed assets)"
 msgstr "מע\"מ תשומות (רכוש קבוע)"
 
@@ -761,12 +765,14 @@ msgstr "שורת מע\"מ ייבוא"
 #: model:account.tax,name:l10n_il.1_il_vat_inputs_1_4_17
 #: model:account.tax,name:l10n_il.2_il_vat_inputs_1_4_17
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_in_balance_1_4
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_1_4
 #: model:account.tax.template,name:l10n_il.il_vat_inputs_1_4_17
 msgid "VAT Inputs 1/4"
 msgstr "מע\"מ תשומות 1/4"
 
 #. module: l10n_il
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_in_balance_17
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_17
 msgid "VAT Inputs 17%"
 msgstr "מע\"מ תשומות 17%"
 
@@ -774,6 +780,7 @@ msgstr "מע\"מ תשומות 17%"
 #: model:account.tax,name:l10n_il.1_il_vat_inputs_2_3_17
 #: model:account.tax,name:l10n_il.2_il_vat_inputs_2_3_17
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_in_balance_2_3
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_2_3
 #: model:account.tax.template,name:l10n_il.il_vat_inputs_2_3_17
 msgid "VAT Inputs 2/3"
 msgstr "מע\"מ תשומות 2/3"
@@ -785,6 +792,7 @@ msgstr "מע\"מ מרשימון ייבוא"
 
 #. module: l10n_il
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_in_balance_pa_16
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_pa_16
 msgid "VAT Inputs PA 16%"
 msgstr "מע\"מ תשומות 16%"
 
@@ -795,6 +803,7 @@ msgstr "מע\"מ תשומות 16%"
 #: model:account.tax,name:l10n_il.1_il_vat_pa_sales_17
 #: model:account.tax,name:l10n_il.2_il_vat_pa_sales_17
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_out_balance_pa
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_balance_pa
 #: model:account.tax.template,name:l10n_il.il_vat_pa_sales_17
 msgid "VAT PA Sales"
 msgstr "מע\"מ עסקאות- פלסטין"
@@ -802,6 +811,7 @@ msgstr "מע\"מ עסקאות- פלסטין"
 #. module: l10n_il
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_out_base
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_out_base_title
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_base
 msgid "VAT SALES (BASE)"
 msgstr "הכנסות חייבות במע\"מ"
 
@@ -817,6 +827,7 @@ msgstr "מע\"מ עסקאות"
 #: model:account.tax,name:l10n_il.1_il_vat_sales_17
 #: model:account.tax,name:l10n_il.2_il_vat_sales_17
 #: model:account.tax.report.line,name:l10n_il.account_tax_report_line_out_balance
+#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_balance
 #: model:account.tax.template,name:l10n_il.il_vat_sales_17
 msgid "VAT Sales"
 msgstr "מע\"מ עסקאות"
@@ -933,48 +944,3 @@ msgstr "ניכוי מס במקור- ספקים"
 #: model:account.account.template,name:l10n_il.il_account_300270
 msgid "current year earnings"
 msgstr "עודפים מהשנה הנוכחית"
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_base
-msgid "הכנסות חייבות במע\"מ"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_base_exempt
-msgid "הכנסות פטורות ממע\"מ"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_balance
-msgid "מע\"מ עסקאות"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_balance_pa
-msgid "מע\"מ עסקאות פלסטין"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_vat_in_fa
-msgid "מע\"מ תשומות (רכוש קבוע)"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_1_4
-msgid "מע\"מ תשומות 1/4"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_17
-msgid "מע\"מ תשומות 17%"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_2_3
-msgid "מע\"מ תשומות 2/3"
-msgstr ""
-
-#. module: l10n_il
-#: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_in_balance_pa_16
-msgid "מע\"מ תשומות פלסטין 16%"
-msgstr ""
